@@ -29,7 +29,7 @@ const Cart = (props) => {
     setIsSubmiting(true);
     try {
       const response = await fetch(
-        "https://react-http-4e903-default-rtdb.firebaseio.com/orders.json",
+        "https://food-order-app-5fea8-default-rtdb.firebaseio.com/orders.json",
         {
           method: "POST",
           body: JSON.stringify({
